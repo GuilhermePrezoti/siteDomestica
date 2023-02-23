@@ -1,0 +1,95 @@
+/*Configuração Barra de navegação*/
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #fca1fc;
+    opacity: 0.99;
+}
+
+#navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 4%;
+    background-size: 100%;
+    background-color: purple;
+}
+
+li, a {
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+#logo {
+    cursor: pointer;
+    width: 130px;
+    height: 130px;
+    margin-left: 3%;
+}
+
+.navLink {
+    list-style: none;
+    background-color: purple;
+}
+
+.navLink li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navLink li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navLink li a:hover {
+    color: lightblue;
+}
+
+/*Fim barra de navegação*/
+
+h3 {
+    padding-top: 2%;
+    text-align: center;
+    font-size: 30px;
+}
+
+#blocoCadastrar {
+    margin: 2% 5% 2% 5%;
+    background-color: white;
+}
+
+#blocoCadastrar #formulario form input {
+    border: 2px solid purple;
+    border-radius: 2px;
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+#blocoCadastrar #formulario form input:focus {
+    background-color: rgb(209, 12, 209);
+}
+
+#formulario {
+    padding: 4% 30% 4% 30%;
+}
+
+.btnRadio {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+input[type=radio] {
+    display: inline;
+    height: 1em;
+}

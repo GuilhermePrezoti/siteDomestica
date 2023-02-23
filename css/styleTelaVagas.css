@@ -1,0 +1,106 @@
+/*Configuração Barra de navegação*/
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+li, a {
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 4%;
+    background-size: 100%;
+    background-color: purple;
+}
+
+#logo {
+    cursor: pointer;
+    width: 130px;
+    height: 130px;
+    margin-left: 3%;
+}
+
+.navLink {
+    list-style: none;
+}
+
+.navLink li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navLink li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navLink li a:hover {
+    color: lightblue;
+}
+
+/*Fim barra de navegação*/
+
+#filtro #opcoes h4, form {
+    margin-top: 1%;
+    text-align: center;
+}
+
+.bloco {
+    background-color: white;
+    margin: 2% 5%;
+    border-radius: 1%;
+}
+
+.bloco .card {
+    background-color: #FFF6FF;
+    margin-top: 1%;
+    display: flex;
+    padding: 2%;
+    justify-content: space-around;
+}
+
+.bloco .card .imagem img {
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.bloco .card .info {
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-right: 20%;
+}
+
+.bloco .card .info #infoDes {
+    margin-left: 0px;
+    margin-top: 10%;
+}
+
+.bloco .card .info #infoEnd {
+    margin-top: 10%;
+}
+
+.bloco .card .info #infoEnd #infoEndereco {
+    display: flex;
+}
+
+.bloco .card .info #infoVal {
+    margin-top: 10%;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 15px;
+}

@@ -1,0 +1,86 @@
+/*Configuração Barra de navegação*/
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+#navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 4%;
+    background-size: 100%;
+    background-color: purple;
+}
+
+li, a {
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+#logo {
+    cursor: pointer;
+    width: 130px;
+    height: 130px;
+    margin-left: 3%;
+}
+
+.navLink {
+    list-style: none;
+    background-color: purple;
+}
+
+.navLink li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navLink li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navLink li a:hover {
+    color: lightblue;
+}
+
+/*Fim barra de navegação*/
+
+h2, p {
+    text-align: center;
+    padding: 1%;
+}
+
+#formularioPerfil {
+    display: flex;
+    padding-top: 1%;
+    padding-right: 3%;
+    margin-right: 2%;
+    margin-left: 4%;
+}
+
+#formularioInterno {
+    margin-right: 20%;
+}
+
+#formularioPerfil input {
+    width: 100%;
+    padding: 10px;
+}
+
+.botao {
+    height: 100px;
+    width: 200px;
+    border: 2px solid purple;
+    margin-top: 10px;
+    background-color: rgb(247, 247, 247);
+}
+
+.botao:hover {
+    background-color: purple;
+    color: white;
+}
